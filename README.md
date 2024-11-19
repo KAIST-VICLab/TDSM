@@ -18,6 +18,9 @@
         <a href="https://kaist-viclab.github.io/TDSM_site/" target='_blank'>
         <img src="https://img.shields.io/badge/🏠-Project%20Page-blue">
         </a>
+        <a href="https://arxiv.org/abs/2411.10745" target='_blank'>
+        <img src="https://img.shields.io/badge/arXiv-2411.10745-b31b1b.svg">
+        </a>
         <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KAIST-VICLab/TDSM">
     </h4>
 </div>
