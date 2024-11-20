@@ -25,7 +25,7 @@
     </h4>
 </div>
 
-<h4 align="center">
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tdsm-triplet-diffusion-for-skeleton-text/zero-shot-skeletal-action-recognition-on-ntu)](https://paperswithcode.com/sota/zero-shot-skeletal-action-recognition-on-ntu?p=tdsm-triplet-diffusion-for-skeleton-text)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tdsm-triplet-diffusion-for-skeleton-text/zero-shot-skeletal-action-recognition-on-ntu-1)](https://paperswithcode.com/sota/zero-shot-skeletal-action-recognition-on-ntu-1?p=tdsm-triplet-diffusion-for-skeleton-text)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tdsm-triplet-diffusion-for-skeleton-text/zero-shot-skeletal-action-recognition-on-pku)](https://paperswithcode.com/sota/zero-shot-skeletal-action-recognition-on-pku?p=tdsm-triplet-diffusion-for-skeleton-text)
