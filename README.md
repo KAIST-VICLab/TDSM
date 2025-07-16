@@ -42,6 +42,7 @@ This repository is the official PyTorch implementation of "TDSM: Triplet Diffusi
 
 ## 📧 News
 - **⚠ The code and pre-trained models will be released later**
+- **Jun 26, 2025:** TDSM accepted to ICCV 2025 :tada:
 - **Nov 16, 2024:** This repository is created
 
 ---
