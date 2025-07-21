@@ -29,8 +29,8 @@
 ---
 
 <h4>
-This repository is the official PyTorch implementation of "Bridging the Skeleton-Text Modality Gap: Diffusion-Powered Modality Alignment for Zero-shot Skeleton-based Action Recognition". Our approach, Triplet
- Diffusion for Skeleton-Text Matching (TDSM) outperforms the very recent state-of-the-art zero-shot skeleton-based action recognition methods with large margins, demonstrating superior accuracy and scalability in zero-shot settings through effective skeleton-text matching.
+This repository is the official PyTorch implementation of "Bridging the Skeleton-Text Modality Gap: Diffusion-Powered Modality Alignment for Zero-shot Skeleton-based Action Recognition." Our approach, Triplet
+ Diffusion for Skeleton-Text Matching (TDSM), outperforms the very recent state-of-the-art zero-shot skeleton-based action recognition methods with large margins, demonstrating superior accuracy and scalability in zero-shot settings through effective skeleton-text matching.
 </h4>
 
 ![](assets/motiv.PNG)
