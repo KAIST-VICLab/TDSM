@@ -1,0 +1,57 @@
+seed: 2025
+num_worker: 4
+work_dir: ./tdsm/results/ntu120/unseen40
+
+phase: train
+
+# feeder
+feeder: feeders.feeder.FeatureFeeder
+train_feeder_args:
+  path: ./data/sk_feats/shift_ntu120_40_r/
+  split: train
+
+val_feeder_args:
+  path: ./data/sk_feats/shift_ntu120_40_r/
+  split: train
+
+test_feeder_args:
+  path: ./data/sk_feats/shift_ntu120_40_r/
+  split: val
+
+#optim
+optimizer: AdamW
+learning_rate: 0.0001
+weight_decay: 0.01
+lr_scheduler: cosine
+num_iter: 50000
+num_warmup: 100
+
+# logging
+log_iter: 2000
+save_iter: 50000
+save_epoch: 50
+eval_epoch: 10
+val_epoch: 50
+
+# training
+batch_size: 256  # duplicate
+test_batch_size: 512
+gpu: 0
+
+# zsl
+unseen_label: 40
+unseen_label_path: ./data/label_splits/ntu120/ru40.npy
+prediction_type: epsilon
+d_weight: 1.0
+t_weight: 1.0
+num_noise: 3
+
+# denoising model
+in_channels: 256
+hidden_size: 768
+depth: 12
+num_heads: 12
+
+# test
+num_steps: 50
+idx_inference_step: 25
