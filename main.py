@@ -54,6 +54,9 @@ def get_parser():
     parser.add_argument('--num-warmup', type=int, default=1, help='the number of warmup iteration')
     parser.add_argument('--batch-size', type=int, default=16, help='training batch size')
     parser.add_argument('--test-batch-size', type=int, default=1, help='test batch size')
+    parser.add_argument('--mixed-precision', type=str, default=None, choices=['no', 'fp16', 'bf16'])
+    parser.add_argument('--pretrained-model-name-or-path', type=str, default='stabilityai/stable-diffusion-2-1-base')
+    parser.add_argument('--accelerator-path', type=str, default='stabilityai/stable-diffusion-2-1-base')
 
     # zero-shot learning (zsl)
     parser.add_argument('--unseen_label', type=int, default=5, help='the number of unseen classes')
