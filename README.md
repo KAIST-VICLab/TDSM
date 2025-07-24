@@ -18,8 +18,11 @@
         <a href="https://kaist-viclab.github.io/TDSM_site/" target='_blank'>
         <img src="https://img.shields.io/badge/🏠-Project%20Page-blue">
         </a>
-        <a href="https://arxiv.org/abs/2411.10745" target='_blank'>
+        <a href="https://[TDSM_site](../../../%EB%B0%95%EC%82%AC%205%ED%95%99%EB%85%84%20%EB%B4%84%ED%95%99%EA%B8%B0/site/kaist-viclab.github.io/TDSM_site)arxiv.org/abs/2411.10745" target='_blank'>
         <img src="https://img.shields.io/badge/arXiv-2411.10745-b31b1b.svg">
+        </a>
+        <a href="https://youtu.be/QD8Kbo6Eh1I" target='_blank'>
+        <img src="https://img.shields.io/badge/Presentation-%23FF0000.svg?logo=YouTube&logoColor=white">
         </a>
         <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KAIST-VICLab/TDSM">
     </h4>
@@ -41,10 +44,21 @@ This repository is the official PyTorch implementation of "Bridging the Skeleton
 ---
 
 ## 📧 News
+- **Jul 24, 2025:** Youtube video about TDSM is uploaded :sparkles:
 - **Jul 21, 2025:** Codes of TDSM are released :fire:
 - **Jun 26, 2025:** TDSM accepted to ICCV 2025 :tada:
 - **Nov 16, 2024:** This repository is created
 
+---
+## Reference
+```BibTeX
+@inproceedings{do2025bridging,
+  title={Bridging the Skeleton-Text Modality Gap: Diffusion-Powered Modality Alignment for Zero-shot Skeleton-based Action Recognition},
+  author={Do, Jeonghyeok and Kim, Munchurl},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  year={2025}
+}
+```
 ---
 
 ## Contents
