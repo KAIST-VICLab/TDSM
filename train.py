@@ -78,10 +78,6 @@ class Trainer:
         # Scheduler
         self.lr_scheduler = get_scheduler(self.args.lr_scheduler, optimizer=self.optimizer, num_warmup_steps=self.args.num_warmup, num_training_steps=self.args.num_iter)
 
-        # Inference
-        self.num_inference_steps = self.args.num_inference_steps
-        self.inference_scheduler.set_timesteps(self.num_inference_steps, device=self.accelerator.device)
-
         self.dit, self.optimizer, self.lr_scheduler, self.train_data_loader, self.val_data_loader, self.test_data_loader = self.accelerator.prepare(
             self.dit, self.optimizer, self.lr_scheduler, self.train_data_loader, self.val_data_loader, self.test_data_loader)
 
@@ -90,7 +86,6 @@ class Trainer:
         noise_scheduler_config['num_train_timesteps'] = self.args.num_steps
         noise_scheduler_config['prediction_type'] = self.args.prediction_type
         self.noise_scheduler = DDPMScheduler.from_config(noise_scheduler_config)
-        self.inference_scheduler = DDIMScheduler.from_config(noise_scheduler_config)
         self.tokenizer = CLIPTokenizer.from_pretrained(self.args.pretrained_model_name_or_path, subfolder="tokenizer")
         self.text_encoder = CLIPTextModel.from_pretrained(self.args.pretrained_model_name_or_path, subfolder="text_encoder")
         self.text_encoder.to(self.accelerator.device, dtype=self.weight_dtype)
