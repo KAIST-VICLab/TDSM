@@ -24,6 +24,9 @@
         <a href="https://youtu.be/QD8Kbo6Eh1I" target='_blank'>
         <img src="https://img.shields.io/badge/Presentation-%23FF0000.svg?logo=YouTube&logoColor=white">
         </a>
+        <a href="https://drive.google.com/file/d/1Qgbq6y38skNwKu0pELukikiNIpwJH4p-/view?usp=drive_link" target='_blank'>
+            <img src="https://img.shields.io/badge/Poster-orange">
+        </a>
         <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KAIST-VICLab/TDSM">
     </h4>
 </div>
