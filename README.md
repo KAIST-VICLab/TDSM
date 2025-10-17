@@ -18,6 +18,12 @@
         <a href="https://kaist-viclab.github.io/TDSM_site/" target='_blank'>
         <img src="https://img.shields.io/badge/🏠-Project%20Page-blue">
         </a>
+        <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Do_Bridging_the_Skeleton-Text_Modality_Gap_Diffusion-Powered_Modality_Alignment_for_Zero-shot_ICCV_2025_paper.pdf" target='_blank'>
+        <img src="https://img.shields.io/badge/2025-ICCV-brightgreen">
+        </a>
+        <a href="https://openaccess.thecvf.com/content/ICCV2025/supplemental/Do_Bridging_the_Skeleton-Text_ICCV_2025_supplemental.pdf" target='_blank'>
+        <img src="https://img.shields.io/badge/2025-ICCV Supp.-brightgreen">
+        </a>
         <a href="https://arxiv.org/abs/2411.10745" target='_blank'>
         <img src="https://img.shields.io/badge/arXiv-2411.10745-b31b1b.svg">
         </a>
@@ -55,11 +61,13 @@ This repository is the official PyTorch implementation of "Bridging the Skeleton
 ---
 ## Reference
 ```BibTeX
-@inproceedings{do2025bridging,
-  title={Bridging the Skeleton-Text Modality Gap: Diffusion-Powered Modality Alignment for Zero-shot Skeleton-based Action Recognition},
-  author={Do, Jeonghyeok and Kim, Munchurl},
-  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
-  year={2025}
+@InProceedings{Do_2025_ICCV,
+    author    = {Do, Jeonghyeok and Kim, Munchurl},
+    title     = {Bridging the Skeleton-Text Modality Gap: Diffusion-Powered Modality Alignment for Zero-shot Skeleton-based Action Recognition},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {12757-12768}
 }
 ```
 ---
