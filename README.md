@@ -61,13 +61,13 @@ This repository is the official PyTorch implementation of "Bridging the Skeleton
 ---
 ## Reference
 ```BibTeX
-@InProceedings{Do_2025_ICCV,
-    author    = {Do, Jeonghyeok and Kim, Munchurl},
-    title     = {Bridging the Skeleton-Text Modality Gap: Diffusion-Powered Modality Alignment for Zero-shot Skeleton-based Action Recognition},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2025},
-    pages     = {12757-12768}
+@inproceedings{do2025tdsm,
+  title={Bridging the skeleton-text modality gap: diffusion-powered modality alignment for zero-shot skeleton-based action recognition},
+  author={Do, Jeonghyeok and Kim, Munchurl},
+  booktitle={2025 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages={12757--12768},
+  year={2025},
+  organization={IEEE}
 }
 ```
 ---
